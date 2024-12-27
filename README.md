@@ -1,0 +1,3 @@
+# ActionScript 3 Implicit Type Coercion Bug
+
+This repository demonstrates a subtle bug in ActionScript 3 related to implicit type coercion.  The `myFunction` in `bug.as` doesn't explicitly define type checking for its parameters, leading to unexpected results if the arguments provided don't match the declared types.  The `bugSolution.as` file showcases a corrected version with stricter type handling.
